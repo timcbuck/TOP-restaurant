@@ -7,6 +7,11 @@ body {
     width: 100%;
 }
 
+p {
+ font-size: 1.2em;
+}
+
+
 header {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -20,7 +25,6 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-
     width: 1000px;
 }
 
@@ -38,12 +42,12 @@ nav > button {
 #content {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
     width: 1000px;
 }
 
 #content-left {
-    flex: 2;
+    flex: 1;
 }
 
 #content-right {
@@ -51,5 +55,5 @@ nav > button {
 }
 
 #content-image {
-    width: 350px;
+    width: 400px;
 }
