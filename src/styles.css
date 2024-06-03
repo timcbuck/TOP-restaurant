@@ -11,7 +11,6 @@ p {
  font-size: 1.2em;
 }
 
-
 header {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -37,6 +36,11 @@ nav > button {
     color: white;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+nav > button:hover {
+    opacity: 85%;
 }
 
 #content {

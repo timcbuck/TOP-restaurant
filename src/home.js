@@ -4,6 +4,9 @@ const loadHomePage = () => {
     // Get content element
     const content = document.getElementById('content');
 
+    // Delete existing content
+    content.innerHTML = '';
+
     // Create new elements to go inside content
     const contentLeft = document.createElement('div');
     const contentRight = document.createElement('div');
