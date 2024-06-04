@@ -44,14 +44,19 @@ nav > button:hover {
 }
 
 #content {
+    width: 1000px;
+}
+
+#home-content {
     display: flex;
     justify-content: center;
     gap: 60px;
-    width: 1000px;
 }
 
 #content-left {
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 #content-right {
@@ -60,4 +65,50 @@ nav > button:hover {
 
 #content-image {
     width: 400px;
+}
+
+#btn-reservation {
+    width: 250px;
+    height: 70px;
+    border-radius: 32px;
+    border-style: none;
+    background-color: lightblue;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: center;
+}
+
+#menu-content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#lunch-container,
+#dinner-container {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lunch-header-container > h1,
+#dinner-header-container > h1 {
+    margin: 0;
+}
+
+#lunch-image,
+#dinner-image {
+    width: 400px;
+    height: 250px;
+    background-color: grey;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 22px;
 }
