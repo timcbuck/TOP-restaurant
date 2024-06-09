@@ -112,3 +112,32 @@ ul {
     gap: 25px;
     font-size: 22px;
 }
+
+#contact-form {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#contact-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#contact-submit {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}

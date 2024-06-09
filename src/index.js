@@ -1,6 +1,7 @@
 import './styles.css';
 import loadHomePage from './home.js';
 import loadMenuPage from './menu.js';
+import loadContactPage from './contact.js';
 
 
 loadHomePage();
@@ -21,6 +22,6 @@ btnMenu.addEventListener('click', () => {
     loadMenuPage();
 });
 btnContact.addEventListener('click', () => {
-    
+    loadContactPage();
 });
 
